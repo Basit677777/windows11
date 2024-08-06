@@ -5,7 +5,7 @@ services:
     environment:
       VERSION: "win11"
     devices:
-      - /dev/kvm
+      - /dev/
     cap_add:
       - NET_ADMIN
     ports:
